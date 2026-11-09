@@ -38,6 +38,12 @@ So wird das HTML-Dashboard erstellt:
 .\ASRReport.ps1
 ```
 
+Sollte das Skript nicht wie erwartet starten, prüfen Sie bitte ob die Script-Ausführungsrichtlinie dies zulässt. Sie können eine einmalige Scriptausführung mit folgendem Befehl erlauben:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+```
+
 Das Skript erstellt eine Datei am Desktop:
 
 ```powershell
